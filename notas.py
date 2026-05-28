@@ -28,7 +28,7 @@ def clasificar_nota(nota):
         str: Clasificación de la nota.
     """
     if nota >= 4.5:
-        return "Excelente"
+        return "impresionante"
     elif nota >= 3.5:
         return "Bueno"
     elif nota >= 3.0:
@@ -49,3 +49,5 @@ def esta_aprobado(nota, min_aprobacion=3.0):
         bool: True si aprueba, False si no.
     """
     return nota >= min_aprobacion
+
+#cambio en el codigo de notas.py
